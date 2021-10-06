@@ -1,25 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import react from "react";
 
-function App() {
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         <h1>TESTING NEW DEPLOYMENT</h1>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>API Integration Document</h1>
     </div>
   );
 }
 
-export default App;
+
