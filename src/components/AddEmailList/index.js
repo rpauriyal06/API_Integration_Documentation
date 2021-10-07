@@ -1,24 +1,30 @@
-import React from "react";
+import React,{useState} from "react";
 
 export const AddEmailList=()=>{
 
-    const emailList=[];
-    const clicked=(e)=>{
-        emailList.push(e.target.value)
-    }
+    const [targetValue,setTargetValue]=useState("");
+    const [emailList,setEmailList]=useState([]);
 
+
+    const onChange=(e)=>{
+        setTargetValue(e.target.value)
+    }
+    const onClicked=()=>{
+        setEmailList.push({email:targetValue})
+console.log(emailList)
+    }
     return(
         <div>
-               <input type="text" />
-               <button type="submit" onClick={(e)=>clicked(e)}/>
-
+               <input type="text" onChange={(e)=>onChange(e)}/>
+               <button type="submit" onClick={onClicked} >Submit</button>
+               <div>
                {
-                   emailList.map((item,id)=>{
-                       <p>
-                           {item[id]}
-                       </p>
-                   })
+              emailList.map((item,id)=>(
+               <p key={id} >
+              <h1> {item.email}</h1>                       </p>
+              ))
                }
+               </div>
         </div>
     )
 }

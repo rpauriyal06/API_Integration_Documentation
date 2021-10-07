@@ -5,7 +5,7 @@ function App() {
       
         <p>
          <h1>API Integration Document</h1>
-         <AddEmailList/>
+         {/* <AddEmailList/> */}
         </p>
        
          
