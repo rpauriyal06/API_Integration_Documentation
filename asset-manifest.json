@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/api_integration_documentation/static/css/main.2c770954.chunk.css",
-    "main.js": "/api_integration_documentation/static/js/main.1bb07191.chunk.js",
-    "main.js.map": "/api_integration_documentation/static/js/main.1bb07191.chunk.js.map",
+    "main.css": "/api_integration_documentation/static/css/main.e6324087.chunk.css",
+    "main.js": "/api_integration_documentation/static/js/main.8fcb40ca.chunk.js",
+    "main.js.map": "/api_integration_documentation/static/js/main.8fcb40ca.chunk.js.map",
     "runtime-main.js": "/api_integration_documentation/static/js/runtime-main.27692623.js",
     "runtime-main.js.map": "/api_integration_documentation/static/js/runtime-main.27692623.js.map",
     "static/js/2.a000bbe1.chunk.js": "/api_integration_documentation/static/js/2.a000bbe1.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.5bdbf593.chunk.js": "/api_integration_documentation/static/js/3.5bdbf593.chunk.js",
     "static/js/3.5bdbf593.chunk.js.map": "/api_integration_documentation/static/js/3.5bdbf593.chunk.js.map",
     "index.html": "/api_integration_documentation/index.html",
-    "static/css/main.2c770954.chunk.css.map": "/api_integration_documentation/static/css/main.2c770954.chunk.css.map",
+    "static/css/main.e6324087.chunk.css.map": "/api_integration_documentation/static/css/main.e6324087.chunk.css.map",
     "static/js/2.a000bbe1.chunk.js.LICENSE.txt": "/api_integration_documentation/static/js/2.a000bbe1.chunk.js.LICENSE.txt",
     "static/media/index.css": "/api_integration_documentation/static/media/Nunito-SemiBold.45ea1be7.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.27692623.js",
     "static/js/2.a000bbe1.chunk.js",
-    "static/css/main.2c770954.chunk.css",
-    "static/js/main.1bb07191.chunk.js"
+    "static/css/main.e6324087.chunk.css",
+    "static/js/main.8fcb40ca.chunk.js"
   ]
 }
