@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/api_integration_documentation/static/css/main.e6f13f0d.chunk.css",
-    "main.js": "/api_integration_documentation/static/js/main.2cadacb9.chunk.js",
-    "main.js.map": "/api_integration_documentation/static/js/main.2cadacb9.chunk.js.map",
+    "main.js": "/api_integration_documentation/static/js/main.c8aa132a.chunk.js",
+    "main.js.map": "/api_integration_documentation/static/js/main.c8aa132a.chunk.js.map",
     "runtime-main.js": "/api_integration_documentation/static/js/runtime-main.5a365075.js",
     "runtime-main.js.map": "/api_integration_documentation/static/js/runtime-main.5a365075.js.map",
     "static/js/2.47401cad.chunk.js": "/api_integration_documentation/static/js/2.47401cad.chunk.js",
@@ -13,9 +13,6 @@
     "static/css/main.e6f13f0d.chunk.css.map": "/api_integration_documentation/static/css/main.e6f13f0d.chunk.css.map",
     "static/js/2.47401cad.chunk.js.LICENSE.txt": "/api_integration_documentation/static/js/2.47401cad.chunk.js.LICENSE.txt",
     "static/media/index.css": "/api_integration_documentation/static/media/Nunito-SemiBold.45ea1be7.ttf",
-    "static/media/contentDeletion.ee3ecf45.png": "/api_integration_documentation/static/media/contentDeletion.ee3ecf45.png",
-    "static/media/episode.2a8bea6c.png": "/api_integration_documentation/static/media/episode.2a8bea6c.png",
-    "static/media/movie.951fe290.png": "/api_integration_documentation/static/media/movie.951fe290.png",
     "static/media/playback.de1a1fd0.png": "/api_integration_documentation/static/media/playback.de1a1fd0.png",
     "static/media/playbackFlow.27788643.png": "/api_integration_documentation/static/media/playbackFlow.27788643.png"
   },
@@ -23,6 +20,6 @@
     "static/js/runtime-main.5a365075.js",
     "static/js/2.47401cad.chunk.js",
     "static/css/main.e6f13f0d.chunk.css",
-    "static/js/main.2cadacb9.chunk.js"
+    "static/js/main.c8aa132a.chunk.js"
   ]
 }
