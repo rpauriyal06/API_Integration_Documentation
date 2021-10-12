@@ -1,14 +1,14 @@
-import {AddEmailList} from "./components/AddEmailList/index";
+import ContentSupported from "./components/pages/ContentSupported";
+import IngestionFlow from "./components/pages/IngestionFlow";
+import Playback  from "./components/pages/Playback";
 
 function App() {
   return (
-      
-        <p>
-         <h1>API Integration Document</h1>
-         {/* <AddEmailList/> */}
-        </p>
-       
-         
+      <>
+         <ContentSupported/>
+         <IngestionFlow/>
+         <Playback/>
+         </>
   );
 }
 

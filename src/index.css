@@ -1,13 +1,58 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "Nunito-regular";
+  src: url("fonts/Nunito-Regular.ttf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Nunito-italic";
+  src: url("fonts/Nunito-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Nunito-semiBold";
+  src: url("fonts/Nunito-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Nunito-light";
+  src: url("fonts/Nunito-Light.ttf");
+}
+@font-face {
+  font-family: "Nunito-bold";
+  src: url("fonts/Nunito-Bold.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: "Nunito-regular";
+}
+
+input {
+  filter: none;
+}
+
+html {
+  font-size: 16px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  scrollbar-width: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scroll-none {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  -webkit-appearance: none;
+}
+
+.custom-scroll_listing {
+  scrollbar-width: thin;
+  scrollbar-color: #cfe0e5 white;
+}
+.custom-scroll {
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
 }

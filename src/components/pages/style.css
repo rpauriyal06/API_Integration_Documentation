@@ -1,0 +1,78 @@
+.documentation {
+  margin: 0px 60px;
+}
+
+.heading {
+  font-size: 32px;
+  font-family: "Nunito-regular";
+  font-weight: 600;
+  font-style: normal;
+  color: #252525;
+}
+
+.text {
+  color: rgb(37, 90, 104);
+  font-size: 18px;
+  font-family: "Nunito-regular";
+  font-weight: 400;
+  font-style: normal;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.small_text {
+  color: #252525;
+  font-size: 15px;
+  font-family: "Nunito-regular";
+  font-weight: 600;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+}
+
+.subHeading {
+  color: #555555;
+  font-size: 24px;
+  font-family: "Nunito-regular";
+  font-weight: 600;
+  font-style: normal;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: auto;
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #858585;
+  color: #252525;
+  font-size: 16px;
+  font-family: "Nunito-regular";
+  font-weight: 600;
+  font-style: normal;
+}
+
+.table td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: white;
+  color: #555555;
+  font-size: 14px;
+  font-family: "Nunito-regular";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.table td,
+.table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
