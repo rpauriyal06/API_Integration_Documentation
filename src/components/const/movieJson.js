@@ -1,4 +1,4 @@
-const MOVIE={
+const MOVIE_JSON={
     "totalPages" : 2,
     "nextPage" : true,
     "data" : [
@@ -189,4 +189,4 @@ const MOVIE={
     ]
   }
 
-  export default MOVIE;
+  export default MOVIE_JSON;

@@ -6,8 +6,11 @@ import EPISODE_TABLE from "../tables/EpisodeTable";
 import movie from "../../assets/movie.png";
 import episode from "../../assets/episode.png";
 import contentDeletion from "../../assets/contentDeletion.png";
-import MOVIE from "../const/movie";
+import MOVIE_JSON from "../const/movieJson";
+import EPISODE_JSON from "../const/episodeJson";
+import TVSHOW_JSON from "../const/tvShowJson";
 import ReactJson from 'react-json-view'
+import CONTENT_DELETION from "../const/contentDeletion";
 
 
 function IngestionFlow (){
@@ -43,9 +46,9 @@ function IngestionFlow (){
 <span className="text">Apart from above mentioned fields we need additional details based on content type as described below :</span><br/><br/>
 
 <span className="subHeading">Movies/Videos</span><br/><br/>
-<span className="text">In the case of movies and videos we need a paginated API from a content partner. Movies can also contain trailers with them. In that case we need trailer information with movie itself with following additional details in trailers key : <a href="https://run.mocky.io/v3/67a72c59-6193-4288-b8d1-4974f00f9849" target="_blank">(Click here for sample response)</a></span><br/><br/>
+<span className="text">In the case of movies and videos we need a paginated API from a content partner. Movies can also contain trailers with them. In that case we need trailer information with movie itself with following additional details in trailers key :</span><br/><br/>
 
-<ReactJson src={MOVIE} theme="monokai" /><br/><br/>
+<ReactJson src={MOVIE_JSON} theme="monokai" /><br/><br/>
 
 
 <table className="table"> 
@@ -81,7 +84,8 @@ function IngestionFlow (){
 <span className="text">APIs from content partners to ingest the TV Shows :</span><br/><br/>
 
 <span className="subHeading">Get TV Shows List API </span><br/><br/>
-<span className="text">Content partners can provide an API to fetch all the available TV Shows list. Apart from the mentioned common fields in Table 1 we need season details. Details regarding seasons can be stored in seasons key with each season containing below additional information :<a href="https://run.mocky.io/v3/c74e4633-5735-40cd-aefa-824913a75fb8" target="_blank" >(Click here for sample response)</a></span><br/><br/> 
+<span className="text">Content partners can provide an API to fetch all the available TV Shows list. Apart from the mentioned common fields in Table 1 we need season details. Details regarding seasons can be stored in seasons key with each season containing below additional information :</span><br/><br/> 
+<ReactJson src={TVSHOW_JSON} theme="monokai" /><br/><br/>
 
 
 <table className="table"> 
@@ -105,9 +109,10 @@ function IngestionFlow (){
  <span className="small_text">Table 3 : Additional Fields for TV Shows</span><br/> <br/>
 
 
- <span className="subHeading">Get TV Shows List API </span><br/><br/>
-<span className="text">Once the TV Shows list is fetched as described in section 3.3.1 we will have TV Show and Season IDs. Using these ids we can fetch the episodes by calling the episodes API like this : <br/><br/>For episodes we need below additional information : <a href="https://run.mocky.io/v3/86e09e8c-5561-48f4-ab2b-b10a0f2e12d0?tvshowId=A&seasonId=B" target="_blank">(Click here for sample response)</a></span><br/><br/> 
+ <span className="subHeading">Get Episodes List API </span><br/><br/>
+<span className="text">Once the TV Shows list is fetched, we will have TV Show and Season IDs. Using these ids we can fetch the episodes by calling the episodes API like this : <br/><br/>For episodes we need below additional information :</span><br/><br/> 
 
+<ReactJson src={EPISODE_JSON} theme="monokai" /><br/><br/>
 
 <table className="table"> 
   <tr>
@@ -134,8 +139,9 @@ function IngestionFlow (){
  <span className="small_text"> Flowchart for fetching TvShow content from API</span><br/> <br/>
 
  <span className="heading"> Content Deletion</span><br/><br/>
-<span className="text">Sometimes content partners might need to unpublish the content from the Airtel Xtream platform and for that they can provide the content deletion API which can include the content ids which needs to be unpublished from the Airtel Xtream system. We will periodically hit this API and will unpublish contents accordingly. <a href="https://run.mocky.io/v3/6425e2ba-042a-41b4-9fd8-92fb6ccf6636" target="_blank"> (Click here for sample response)</a>
+<span className="text">Sometimes content partners might need to unpublish the content from the Airtel Xtream platform and for that they can provide the content deletion API which can include the content ids which needs to be unpublished from the Airtel Xtream system. We will periodically hit this API and will unpublish contents accordingly.
 </span><br/> <br/>
+<ReactJson src={CONTENT_DELETION} theme="monokai" /><br/><br/>
 
 <img src={contentDeletion} alt="movie"/>
  <span className="small_text"> Flowchart for fetching deleted content from API</span><br/> <br/>
