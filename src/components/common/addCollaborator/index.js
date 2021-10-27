@@ -29,7 +29,6 @@ function Collaborator(){
           .then((res) => res.json())
           .then(async (res) => {
             const resData = await res;
-            console.log(resData);
             if (resData.status === "success") {
               alert("Message Sent");
             } else if (resData.status === "fail") {
